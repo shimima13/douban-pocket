@@ -16,13 +16,15 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    git checkout gh-pages
+    git merge master
     npm install -g webpack webpack-cli --save-dev
     npm install
     npx webpack --config webpack.config.js
   displayName: 'npm install, run webpack'
 - script: |
-    git config --local user.name "Azure Pipelines"
-    git config --local user.email "azuredevops@microsoft.com"
+    git config --local user.name "shimima13"
+    git config --local user.email "earther_hjw@163.com"
     git add .
     git commit -m "Publishing GitHub Pages  ***NO_CI***"
   displayName: 'Build and commit pages'
@@ -37,7 +39,7 @@ steps:
     chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
     ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
     git remote set-url --push origin git@github.com:shimima13/douban-pocket.git
-    git push origin HEAD:master
+    git push origin HEAD:gh-pages
   displayName: 'Publish GitHub Pages'
   condition: |
     and(not(eq(variables['Build.Reason'], 'PullRequest')),

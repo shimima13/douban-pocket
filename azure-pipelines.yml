@@ -18,6 +18,11 @@ steps:
 - script: |
     npm install -g webpack webpack-cli --save-dev
     npm install
+    git checkout gh-pages
+    git merge origin/master
     npx webpack --config webpack.config.js
+    git add .
+    git commit -m 'GitHub Pages Publish by Azure Pipelines'
+    git push origin gh-pages
   displayName: 'npm install, run webpack'
 

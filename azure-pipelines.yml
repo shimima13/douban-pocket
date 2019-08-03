@@ -17,7 +17,7 @@ steps:
 
 - script: |
     git checkout gh-pages
-    git merge master
+    git merge origin master
     npm install -g webpack webpack-cli --save-dev
     npm install
     npx webpack --config webpack.config.js

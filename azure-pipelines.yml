@@ -18,11 +18,31 @@ steps:
 - script: |
     npm install -g webpack webpack-cli --save-dev
     npm install
+  displayName: 'npm install'
+
+- script: |
+    git config --local user.name "shimima13"
+    git config --local user.email "earther_hjw@163.com"
     git checkout gh-pages
     git merge origin/master
     npx webpack --config webpack.config.js
+  displayName: 'Git checkout to gh-pages and build'
+
+- task: DownloadSecureFile@1
+  inputs:
+    secureFile: deploy_key
+  displayName: 'Get the deploy key'
+
+- script: |
+    mkdir ~/.ssh && mv $DOWNLOADSECUREFILE_SECUREFILEPATH ~/.ssh/id_rsa
+    chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
+    ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
     git add .
     git commit -m 'GitHub Pages Publish by Azure Pipelines'
-    git push origin gh-pages
-  displayName: 'npm install, run webpack'
+    git remote set-url --push origin git@github.com:shimima13/douban-pocket.git
+    git push origin HEAD:gh-pages
+  displayName: 'Publish GitHub Pages'
+  condition: |
+    and(not(eq(variables['Build.Reason'], 'PullRequest')),
+        eq(variables['Build.SourceBranch'], 'refs/heads/master'))
 

@@ -23,10 +23,12 @@ steps:
 - script: |
     git config --local user.name "shimima13"
     git config --local user.email "earther_hjw@163.com"
+    git checkout gh-pages
+    git merge origin/master
     npx webpack --config webpack.config.js
     git add .
     git commit -m "Publishing GitHub Pages  ***NO_CI***"
-  displayName: 'webpack build'
+  displayName: 'Checkout to branch gh-pages and run webpack'
 
 - task: DownloadSecureFile@1
   inputs:
@@ -38,7 +40,7 @@ steps:
     chmod 700 ~/.ssh && chmod 600 ~/.ssh/id_rsa
     ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
     git remote set-url --push origin git@github.com:shimima13/douban-pocket.git
-    git push origin HEAD:master
+    git push origin HEAD:gh-pages
   displayName: 'Publish GitHub Pages'
   condition: |
     and(not(eq(variables['Build.Reason'], 'PullRequest')),

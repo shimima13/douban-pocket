@@ -1,0 +1,148 @@
+{
+    "retcode": 0,
+    "result": [{
+        "id": "1539030",
+        "title": "蒙面女人",
+        "rating": {
+            "max": 10,
+            "numRaters": 359,
+            "average": "7.4",
+            "min": 0
+        },
+        "subtitle": "",
+        "author": ["[英] 阿加莎·克里斯蒂"],
+        "pubdate": "1998-10",
+        "tags": [{
+            "count": "137",
+            "name": "阿加莎·克里斯蒂",
+            "title": "阿加莎·克里斯蒂"
+        }, {
+            "count": "66",
+            "name": "推理",
+            "title": "推理"
+        }, {
+            "count": "42",
+            "name": "英国",
+            "title": "英国"
+        }, {
+            "count": "30",
+            "name": "小说",
+            "title": "小说"
+        }, {
+            "count": "23",
+            "name": "侦探",
+            "title": "侦探"
+        }, {
+            "count": "18",
+            "name": "波洛",
+            "title": "波洛"
+        }, {
+            "count": "15",
+            "name": "AgathaChristie",
+            "title": "AgathaChristie"
+        }, {
+            "count": "13",
+            "name": "阿婆",
+            "title": "阿婆"
+        }],
+        "origin_title": "Poirot&#39;s Early Cases",
+        "image": "https://img3.doubanio.com/view/subject/m/public/s26384116.jpg",
+        "binding": "平装",
+        "translator": ["许爱军", "宋新"],
+        "catalog": "舞会谜案 (The Affair at the Victory Ball)<br>克拉珀姆厨师奇遇记 (The Adventure of the Clapham Cook)<br>康沃尔谜案 (The Cornish Mystery)<br>约翰尼·韦弗利历险记 (The Adventure of Johnny Waverly)<br>双重线索 (The Double Clue)<br>梅花K之谜 (King of Clubs)<br>勒梅热勒遗产 (The Lemesurier Inheritance)<br>失去的矿井 (The Lost Mine)<br>普利茅斯快车上的谋杀案 (Plymouth Express)<br>巧克力盒谜案 (The Chocolate Box)<br>潜艇图纸 (The Sabmarine Plans)<br>第三层套间中的疑案 (The Third Floor Flat)<br>双重罪恶 (Double Sin)<br>贝辛市场奇案 (The Market Basing Mystery)<br>蜂窝谜案 (Wasp&#39;s Nest)<br>蒙面女人 (The Veiled Lady)<br>海上谜案 (Problem at Sea)<br>花园疑案 (How Does Your Garden Grow?)",
+        "pages": "306",
+        "images": {
+            "small": "https://img3.doubanio.com/view/subject/s/public/s26384116.jpg",
+            "large": "https://img3.doubanio.com/view/subject/l/public/s26384116.jpg",
+            "medium": "https://img3.doubanio.com/view/subject/m/public/s26384116.jpg"
+        },
+        "alt": "https://book.douban.com/subject/1539030/",
+        "publisher": "贵州人民出版社",
+        "isbn10": "722104712X",
+        "isbn13": "9787221047120",
+        "url": "https://api.douban.com/v2/book/1539030",
+        "alt_title": "Poirot&#39;s Early Cases",
+        "author_intro": "",
+        "summary": "蒙面女人（《Poirot&#39;s Early Cases》）又译作《艺术舞会奇案——波洛探案精萃》。阿加莎·克里斯蒂在20世纪20、30年代发表过很多以波洛为主角的短篇小说，刊载于不同的杂志，其中有一些很长时间没有被编入选集，1974年出版的《蒙面女人》就补收了其中的绝大部分。",
+        "price": "20.80元",
+        "ebook_price": null,
+        "ebook_url": null,
+        "series": {
+            "id": "132",
+            "title": "阿加莎·克里斯蒂作品全集"
+        }
+    }, {
+        "id": "1800122",
+        "title": "蒙面叢林",
+        "rating": {
+            "max": 10,
+            "numRaters": 15,
+            "average": "7.6",
+            "min": 0
+        },
+        "subtitle": "",
+        "author": ["吳音寜", "馬訶士"],
+        "pubdate": "2003",
+        "tags": [{
+            "count": "13",
+            "name": "吳音寧",
+            "title": "吳音寧"
+        }, {
+            "count": "5",
+            "name": "墨西哥",
+            "title": "墨西哥"
+        }, {
+            "count": "4",
+            "name": "革命",
+            "title": "革命"
+        }, {
+            "count": "4",
+            "name": "同胞早晨",
+            "title": "同胞早晨"
+        }, {
+            "count": "3",
+            "name": "政治",
+            "title": "政治"
+        }, {
+            "count": "2",
+            "name": "馬珂士",
+            "title": "馬珂士"
+        }, {
+            "count": "2",
+            "name": "紀實",
+            "title": "紀實"
+        }, {
+            "count": "2",
+            "name": "島",
+            "title": "島"
+        }],
+        "origin_title": "",
+        "image": "https://img3.doubanio.com/view/subject/m/public/s1671503.jpg",
+        "binding": "平裝",
+        "translator": ["吳音寜"],
+        "catalog": "",
+        "pages": "25 K 288頁",
+        "images": {
+            "small": "https://img3.doubanio.com/view/subject/s/public/s1671503.jpg",
+            "large": "https://img3.doubanio.com/view/subject/l/public/s1671503.jpg",
+            "medium": "https://img3.doubanio.com/view/subject/m/public/s1671503.jpg"
+        },
+        "alt": "https://book.douban.com/subject/1800122/",
+        "publisher": "INK印刻出版有限公司",
+        "isbn10": "9867810775",
+        "isbn13": "9789867810779",
+        "url": "https://api.douban.com/v2/book/1800122",
+        "alt_title": "蒙面丛林",
+        "author_intro": "馬訶士（Subcommandante Marcos） <br><br>  詩人、叛亂者、墨西哥查巴達民族解放軍（EZLN）副總司令，蒙面的馬訶士是中南美洲繼切‧格瓦拉之後，最負盛名且最具偶像魅力的游擊隊領袖。他從一九九四年武裝革命之後，一夕成名，透過網路，持續發表論述、宣言、童話等文章；像是從深山寄來一封封信件，以詩一般的語言，擄獲著眾多、仍有夢想的人的心。目前，查巴達的相關網站，已超過四千五百個，而馬訶士的文章，也被翻譯成至少十四種語言，仍在擴大層面的流傳中。 <br><br>吳音寧 <br><br>  出生在島嶼濁水溪畔的小村莊，高中時代曾在廟會攤位購得一本舊書，時常蹲坐在廁所閱讀，十六歲便獨自飛往西貢採訪越戰的義大利女記者奧利安娜‧法拉琪（Oriana Fallaci）的故事，而心嚮往之。長大後參加過學運、當過報社編輯，因緣際會，在二○○一年進入墨西哥查巴達民族解放軍的自治區採訪。",
+        "summary": "本書分成兩部分：〈蒙面叢林──探訪墨西哥查巴達民族解放軍〉及〈蒙面叢林──深山來的信〉。 <br><br>〈蒙面叢林──探訪墨西哥查巴達民族解放軍〉 <br><br>吳音寧實地探訪墨西哥查巴達民族解放軍，實地感受革命氣息後寫作的報導文學作品，文中對於馬訶士、查巴達民族解放軍及墨西哥印地安人的生活有深入的介紹，足供身在富裕寶島的我們，反思生存情境與生活樣態。 <br><br>〈蒙面叢林──深山來的信〉 <br><br>收錄馬訶士以詩的語言寫作寓言般的革命童話。 <br><br>一、甲蟲德瑞多系列 <br><br>馬訶士創造一隻名為「德瑞多」的「小」甲蟲，每次出場，就是命令游擊隊員寫故事。馬訶士藉由不斷詢問甲蟲「你是誰？」來回應讀者——世界各地的讀者——對他的好奇。 <br><br>二、童話游擊系列 <br><br>為帶著童話寓言性質的短文，具有詼諧幽默的興味，時時透顯出詩的美感。 <br><br>三、老唐尼諾系列 <br><br>承繼大多數原住民部落的口傳文學傳統，透過「老唐尼諾」之口對游擊隊員馬訶士訴說印地安人的故事，馬訶士再將這些融合傳統與現代思維的故事，寫出來，透過e-mail，傳給全世界。 <br><br>四、宣言系列 <br><br>以說故事的口吻介紹查巴達民族解放軍的理念及其行動。 本書為特殊雙封面設計，馬訶士作品為左翻橫排，吳音寧作品則為右翻直排。",
+        "price": "280元",
+        "ebook_price": null,
+        "ebook_url": null,
+        "series": null
+    }],
+    "page": 1,
+    "total": 2,
+    "limit": 10,
+    "count": 2,
+    "date": 1558006816674
+}

@@ -1,0 +1,20 @@
+image: node # 镜像选择 node，因为我们需要运行 npm 命令
+
+before_script:
+  - npm install # 在执行我们的构建任务前先安装依赖
+
+cache:
+  paths:
+    - node_modules/ # 缓存 node_modules 目录，可有可无
+
+pages: # 这里必须写 pages 是一个特殊的任务名称，只有用 pages 才能托管我们的静态站点
+  stage: deploy # 这里可以写也可以不写，不写的话默认是 test 
+  variables:
+    PUBLIC_URL: "/douban-pocket"
+  script:
+    - npm run build:gitlab # 运行构建命令
+  artifacts:
+    paths:
+      - public # 设置站点根目录
+  only:
+    - master # 只有 master 分支被 push 的时候会触发

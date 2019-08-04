@@ -1,2 +1,6 @@
-## 口袋豆瓣
-在豆瓣应用我们可以获取（或者搜索获取）到豆瓣的图书，电影，音乐列表以及相关的详情信息
+## douban-pocket
+A demo app.
+In this App we drag data from douban API so that we can search and view some infomation about books, movies and musics.
+
+### Please preview the App in chrome developer mode and toggle device toolbar
+Link: <a target='_blank' href='http://shimima13.page.imweb.io/douban-pocket/'>Preview Here</a>
